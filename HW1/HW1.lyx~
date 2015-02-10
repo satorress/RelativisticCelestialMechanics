@@ -83,7 +83,7 @@ Solve numerically the following equation:
 \begin_layout Standard
 \begin_inset Formula 
 \[
-U^{\prime\prime}+U-\frac{Gm}{h^{2}}=0
+U^{\prime\prime}+U-\frac{Gm}{h^{2}}=0.
 \]
 
 \end_inset
