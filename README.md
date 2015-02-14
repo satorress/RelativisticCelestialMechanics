@@ -15,7 +15,7 @@ This document is written in **Markdown** format. Details in:
 
 Solve numerically the following equation:
 
-$U^{\prime\prime}+U-\frac{Gm}{h^{2}}=0$
+$$U^{\prime\prime}+U-\frac{Gm}{h^{2}}=0$$
 
 
 
