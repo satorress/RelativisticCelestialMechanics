@@ -294,25 +294,6 @@ in order to get
 8.
 \end_layout
 
-\begin_layout Standard
-Calculate
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\frac{d\hat{l}}{dt}=\frac{d\varOmega}{dt}\left(\begin{array}{c}
--\sin\varOmega\\
-\cos\varOmega\\
-0
-\end{array}\right).
-\]
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 9.
 \end_layout
@@ -328,7 +309,7 @@ Find the five osculating elements:
 \frac{de}{dt} & = & \frac{\sqrt{1-e^{2}}}{na}\left[Re\sin f+S\left(\cos f+\cos E\right)\right]\\
 \frac{di}{dt} & = & \frac{r\cos\phi}{na^{2}\sqrt{1-e^{2}}}W\\
 \frac{d\varOmega}{dt} & = & \frac{r\sin\phi}{na^{2}\sqrt{1-e^{2}}\sin i}W\\
-\frac{d\omega}{dt} & = & -\cos i\frac{d\varOmega}{dt}+\frac{\sqrt{1-e^{2}}}{nae}\left[R\cos f+S\left(1+\frac{r}{P}\right)\sin f\right]
+\frac{d\omega}{dt} & = & -\cos i\frac{d\varOmega}{dt}+\frac{\sqrt{}}{}
 \end{eqnarray*}
 
 \end_inset
