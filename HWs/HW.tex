@@ -1,0 +1,136 @@
+%% LyX 2.2.0dev created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{amsmath}
+\usepackage{babel}
+\begin{document}
+
+\title{Exercises}
+\maketitle
+
+\subsubsection*{1.}
+
+Solve numerically the following equation:
+
+\[
+U^{\prime\prime}+U-\frac{Gm}{h^{2}}=0
+\]
+
+
+\subsubsection*{2. }
+
+From
+
+\[
+\frac{\dot{r}\left(\vec{r}\cdot\vec{r}\right)-\left(\vec{r}\cdot\dot{\vec{r}}\right)\vec{r}}{r^{3}},
+\]
+derive
+
+\[
+\left(\frac{\left(\vec{r}\times\dot{\vec{r}}\right)\times\vec{r}}{r^{3}}\right),
+\]
+using 
+\[
+\vec{A}\times\left(\vec{B}\times\vec{C}\right)=\vec{A}\left(\vec{B}\cdot\vec{C}\right)-\left(\vec{A}\cdot\vec{B}\right)\vec{C}.
+\]
+
+
+\subsubsection*{3.}
+
+From
+
+\[
+GM\left(\frac{\vec{r}}{r}+\vec{e}\right)\cdot\vec{r}=\left(\dot{\vec{r}}\times\vec{h}\right)\cdot\vec{r}
+\]
+derive
+
+\begin{eqnarray*}
+GM\left(\frac{\vec{r}}{r}+\vec{e}\right)\cdot\vec{r} & = & \left(\vec{r}\times\dot{\vec{r}}\right)\cdot\vec{h},\\
+ & = & h^{2}.
+\end{eqnarray*}
+using 
+\[
+\left(\vec{A}\times\vec{B}\right)\cdot\vec{C}=\left(\vec{C}\times\vec{A}\right)\cdot\vec{B}.
+\]
+
+
+\subsubsection*{4.}
+
+From
+
+\[
+\vec{f}=GM\vec{e}=\dot{\vec{r}}\times\left(\vec{r}\times\dot{\vec{r}}\right)-GM\frac{\vec{r}}{r}
+\]
+derive
+
+\[
+GM\vec{e}=\left[v^{2}-\frac{GM}{r}\right]\vec{r}-\left(\dot{\vec{r}}\cdot\vec{r}\right)\dot{\vec{r}}
+\]
+
+
+\subsubsection*{5. }
+
+What is the Vernal point?
+
+\subsubsection*{6. }
+
+Solve numerically the Kepler's equation:
+
+\[
+E-e\sin E=M,
+\]
+for $M=1$ with 12 decimal digits of precision.
+
+\subsubsection*{7. }
+
+Since 
+
+\[
+\cos f=\frac{\cos E-e}{1-e\cos E}
+\]
+
+compute explicitly 
+\[
+\sin f
+\]
+
+and
+
+\[
+\tan f,
+\]
+in order to get
+
+\[
+\tan\frac{f}{2}=\sqrt{\frac{1+e}{1-e}}\tan\left(\frac{E}{2}\right).
+\]
+
+
+\subsubsection*{8.}
+
+Calculate
+
+\[
+\frac{d\hat{l}}{dt}=\frac{d\varOmega}{dt}\left(\begin{array}{c}
+-\sin\varOmega\\
+\cos\varOmega\\
+0
+\end{array}\right).
+\]
+
+
+\subsubsection*{9.}
+
+Find the five osculating elements:
+
+\begin{eqnarray*}
+\frac{da}{dt} & = & \frac{2}{n\sqrt{1-e^{2}}}\left[Re\sin f+\frac{SP}{r}\right]\\
+\frac{de}{dt} & = & \frac{\sqrt{1-e^{2}}}{na}\left[Re\sin f+S\left(\cos f+\cos E\right)\right]\\
+\frac{di}{dt} & = & \frac{r\cos\phi}{na^{2}\sqrt{1-e^{2}}}W\\
+\frac{d\varOmega}{dt} & = & \frac{r\sin\phi}{na^{2}\sqrt{1-e^{2}}\sin i}W\\
+\frac{d\omega}{dt} & = & -\cos i\frac{d\varOmega}{dt}+\frac{\sqrt{1-e^{2}}}{nae}\left[R\cos f+S\left(1+\frac{r}{P}\right)\sin f\right]
+\end{eqnarray*}
+
+\end{document}
