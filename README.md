@@ -3,7 +3,7 @@ Relativistic Celestial Mechanics Course (SIA 2018044-1)
 
 Exercises
 
-Hws-> HW.lyx or Hws.pdf
+Hws-> HW.tex or Hws.pdf
 
 
 
